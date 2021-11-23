@@ -2,7 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="453cde17-9428-4924-93fa-54095c139759" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Editor Default Resources/Febucci/HierarchyData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Editor Default Resources/Febucci/HierarchyData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon00.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/Febucci.CustomHierarchy.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/HierarchyData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Plugins/Febucci/CustomHierarchy/HierarchyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/1 Simple/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/1 Simple/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/1 Simple/Animation/Animators/Root.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/1 Simple/Animation/Clips/Boris Move.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/1 Simple/Sprites/Boris.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/2 Single Skinned Sprite/Animation/Plunkah.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/2 Single Skinned Sprite/Sprites/Plunkah.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/3 Multiple Skinned Sprites/Sprites/Rikr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Animation/Animators/Dialog.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Sprite Library/Hero.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Sprites/Rikr Rage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/5 SpriteSwap/Sprites/Scavengers_SpriteSheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/Attachment Points/Animation/Animators/Fei.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/Attachment Points/Animation/Clips/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/IK.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/IK/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/IK/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Extras/IK/Sprites/Plunkah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Scripts/AnimationSampleDependency.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Animation/5.0.7/Samples/Scripts/Unity.2D.Animation.Samples.Dependency.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/CustomCanvasScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/UI Scaling Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated Parent.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras/PixelPerfectCamera_16PPU_320x240_Pixel Snapped.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Texture Importers/TextureImporter_32PPU_PointFilter.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_dash_ready.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Prefabs/RoboHero.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Prefabs/RoboHero.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/BasicCameraFollow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imports/Unity 2D Tools/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Third-Party Notices.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/Animation/ClothAnimator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/Animation/ClothAnimator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/Animation/PlayerIdle_Front.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/Animation/PlayerIdle_Front.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Febucci.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Febucci/HierarchyData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Febucci/HierarchyData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Animation/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/PlayerMove_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Animation/PlayerMove_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/PlayerMove_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Animation/PlayerMove_Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/Player_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/Player_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/ExampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/ExampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Febucci.CustomHierarchy.Examples.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Febucci.CustomHierarchy.Examples.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Icons/GIZMOS_HierarchyIcon02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Prefab1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Prefab1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Prefab2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Prefab2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/BaseClassA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/BaseClassA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/BaseClassB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/BaseClassB.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassB.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassC.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Example/Scripts/ClassC.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Febucci.CustomHierarchy.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/Febucci.CustomHierarchy.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/HierarchyData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/HierarchyData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/HierarchyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/HierarchyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/CustomHierarchy/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +188,7 @@
       <updated>1637697015733</updated>
       <workItem from="1637697017858" duration="6000" />
       <workItem from="1637697043698" duration="2564000" />
-      <workItem from="1637704737761" duration="316000" />
+      <workItem from="1637704737761" duration="2106000" />
     </task>
     <servers />
   </component>
