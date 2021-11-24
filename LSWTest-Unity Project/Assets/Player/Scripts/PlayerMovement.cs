@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
    private PlayerInput _playerInput;
    private Animator _playerAnim;
 
+   public bool playerIsMove;
+
    private void Awake()
    {
        _rb = GetComponent<Rigidbody2D>();
@@ -31,4 +33,19 @@ public class PlayerMovement : MonoBehaviour
        _rb.MovePosition(_rb.position + _playerInput.movement * movementSpeed * Time.fixedDeltaTime);
    }
    
+   
+   private void UpdateAnimValues()
+   {
+       if (_playerInput.movement.y == 0)
+       {
+           _playerAnim.SetFloat("HorizontalX", _playerInput.movement.x);
+           _playerAnim.SetFloat("VerticalY", 0);
+       }
+
+       if (_playerInput.movement.x == 0)
+       {
+           _playerAnim.SetFloat("VerticalY", _playerInput.movement.y);
+           _playerAnim.SetFloat("HorizontalX", 0);
+       }
+   }
 }

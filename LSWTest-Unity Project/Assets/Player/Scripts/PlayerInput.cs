@@ -17,6 +17,19 @@ public class PlayerInput : MonoBehaviour
         
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        
+        /*
+        if (Input.GetAxisRaw("Vertical") == 0)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = 0;
+        }
+
+        if (Input.GetAxisRaw("Horizontal") == 0)
+        {
+            movement.x = 0;
+            movement.y = Input.GetAxisRaw("Vertical");
+        }*/
     }
 }
 
