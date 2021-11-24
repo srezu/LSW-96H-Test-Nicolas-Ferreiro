@@ -539,6 +539,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &431831627 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3518616060472656745, guid: e520aa7e3adcc5040bfb2b998153eb62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6559443595259731307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &488264683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,7 +1720,7 @@ PrefabInstance:
     - target: {fileID: 2728571513250111219, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Name
-      value: ClothingSlot (1)
+      value: ClothingSlotARMOR
       objectReference: {fileID: 0}
     - target: {fileID: 4437700309287104777, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
@@ -1736,6 +1748,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6776726587643819670, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -10.9459
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776726587643819670, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -11.2196
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: clothingData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6edf415447c5e79498691749c1a01c26,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de547e2ba6153794c93acf77550deef3, type: 3}
 --- !u!224 &964086535 stripped
@@ -1744,6 +1772,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 964086534}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &980387514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
+    type: 3}
+  m_PrefabInstance: {fileID: 964086534}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36b38d093f2fbc43be5154e1881676a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1057345129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,6 +1918,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057345129}
   m_CullTransparentMesh: 1
+--- !u!114 &1158623301 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1792074604}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36b38d093f2fbc43be5154e1881676a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1290798140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2166,6 +2218,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472970625 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 806452138375855466, guid: e520aa7e3adcc5040bfb2b998153eb62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6559443595259731307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1489858973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5049114750383461733}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36b38d093f2fbc43be5154e1881676a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1555676764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2351,6 +2427,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 43197323}
     m_Modifications:
+    - target: {fileID: 2728571512581257386, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2728571513250111218, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2459,7 +2540,12 @@ PrefabInstance:
     - target: {fileID: 2728571513250111219, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Name
-      value: ClothingSlot (2)
+      value: ClothingSlotLEGS
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728571513250111219, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4437700309287104777, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
@@ -2486,6 +2572,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776726587643819670, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -18.5157
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776726587643819670, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -17.1011
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de547e2ba6153794c93acf77550deef3, type: 3}
@@ -2650,6 +2746,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1835608896}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1937340776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8648189837839329230, guid: e520aa7e3adcc5040bfb2b998153eb62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6559443595259731307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2094227411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3000,7 +3108,7 @@ PrefabInstance:
     - target: {fileID: 2728571513250111219, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Name
-      value: ClothingSlot
+      value: ClothingSlotHELMET
       objectReference: {fileID: 0}
     - target: {fileID: 4437700309287104777, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
@@ -3033,6 +3141,12 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: clothingData
+      value: 
+      objectReference: {fileID: 11400000, guid: 895d09b5b02bbff409b89fdb519f9620,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de547e2ba6153794c93acf77550deef3, type: 3}
 --- !u!1001 &6559443595259731307
@@ -3042,6 +3156,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: clothingSlot.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: clothingSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 1489858973}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: clothingSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 980387514}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: clothingSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 1158623301}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[0].clothingItem
+      value: 
+      objectReference: {fileID: 1937340776}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[0].clothingSlot
+      value: 
+      objectReference: {fileID: 1489858973}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[1].clothingItem
+      value: 
+      objectReference: {fileID: 1472970625}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[1].clothingSlot
+      value: 
+      objectReference: {fileID: 980387514}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[2].clothingSlot
+      value: 
+      objectReference: {fileID: 1158623301}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[3].clothingItem
+      value: 
+      objectReference: {fileID: 431831627}
+    - target: {fileID: 7442384972279431005, guid: e520aa7e3adcc5040bfb2b998153eb62,
+        type: 3}
+      propertyPath: playerClothing.Array.data[3].clothingSlot
+      value: 
+      objectReference: {fileID: 1158623301}
     - target: {fileID: 7442384972279431006, guid: e520aa7e3adcc5040bfb2b998153eb62,
         type: 3}
       propertyPath: m_Name

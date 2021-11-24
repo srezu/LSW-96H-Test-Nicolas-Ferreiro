@@ -1720,7 +1720,7 @@ MonoBehaviour:
   - clothingSpriteFront: {fileID: 7838735835751412131}
     clothingSpriteBack: {fileID: 7022026102941650565}
     clothingSpriteLeft: {fileID: 8815269541742987479}
-  clothingType: 3
+  clothingType: 2
   clothingPrice: 0
   clothingName: 
   clothingDescription: 
@@ -3434,13 +3434,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerClothing:
   - clothingItem: {fileID: 806452138375855466}
-    clothingData: {fileID: 11400000, guid: 6edf415447c5e79498691749c1a01c26, type: 2}
+    clothingSlot: {fileID: 0}
   - clothingItem: {fileID: 8648189837839329230}
-    clothingData: {fileID: 11400000, guid: 895d09b5b02bbff409b89fdb519f9620, type: 2}
+    clothingSlot: {fileID: 0}
   - clothingItem: {fileID: 7026568602616252381}
-    clothingData: {fileID: 11400000, guid: bcb8005d3d5e10f4a92a81b234fed988, type: 2}
+    clothingSlot: {fileID: 0}
   - clothingItem: {fileID: 3518616060472656745}
-    clothingData: {fileID: 11400000, guid: 64fdbca282610a34f932b7d0806a4f5e, type: 2}
+    clothingSlot: {fileID: 0}
 --- !u!1 &7442408754752244190
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,7 +4470,7 @@ SpriteRenderer:
   m_SortingOrder: 410
   m_Sprite: {fileID: 21300024, guid: 76ca77e0c084c82499f6224377bce39c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.8, y: 1.6}

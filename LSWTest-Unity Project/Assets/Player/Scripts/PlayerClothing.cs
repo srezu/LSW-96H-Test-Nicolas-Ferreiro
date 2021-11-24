@@ -7,19 +7,21 @@ using UnityEngine.Serialization;
 public class PlayerClothing : MonoBehaviour
 {
     public Clothing[] playerClothing;
-
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        UpdatePlayerClothes();
+    }
+
+    public void UpdatePlayerClothes()
+    {
+        foreach (var clothing in playerClothing)
         {
-            foreach (var clothing in playerClothing)
-            {
-                clothing.clothingItem.ToggleClothing(true);
-                clothing.clothingItem.UpdateClothingData(clothing.clothingData);
-            }
+            if (clothing.clothingSlot.clothingData == null) return;
+            
+               clothing.clothingItem.ToggleClothing(true);
+               clothing.clothingItem.UpdateClothingData(clothing.clothingSlot.clothingData);
         }
-
-
     }
 }
 
@@ -27,7 +29,7 @@ public class PlayerClothing : MonoBehaviour
 
 [Serializable] public struct Clothing
 {
-    public ClothingItem clothingItem; 
-    public ClothingData clothingData;
+    public ClothingItem clothingItem;
+    public InventorySlot clothingSlot;
 }
 
