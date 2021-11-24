@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="453cde17-9428-4924-93fa-54095c139759" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Animation/Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <workItem from="1637697017858" duration="6000" />
       <workItem from="1637697043698" duration="2564000" />
       <workItem from="1637704737761" duration="2804000" />
-      <workItem from="1637728838377" duration="957000" />
+      <workItem from="1637728838377" duration="1188000" />
     </task>
     <servers />
   </component>
@@ -99,5 +95,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Player/Scripts/PlayerMovement.cs</url>
+          <line>37</line>
+          <properties documentPath="D:\PROYECTOS\Little Sim World\LSW-96H-Test-Nicolas-Ferreiro GITHUB\LSWTest-Unity Project\Assets\Player\Scripts\PlayerMovement.cs" initialLine="37" containingFunctionPresentation="method 'UpdateAnimValues'">
+            <startOffsets>
+              <option value="779" />
+            </startOffsets>
+            <endOffsets>
+              <option value="840" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

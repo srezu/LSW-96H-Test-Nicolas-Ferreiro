@@ -24,8 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
    private void Update()
    {
-       _playerAnim.SetFloat("HorizontalX", _playerInput.movement.x);
-       _playerAnim.SetFloat("VerticalY", _playerInput.movement.y);
+       UpdateAnimValues();
    }
 
    private void FixedUpdate()
@@ -36,16 +35,7 @@ public class PlayerMovement : MonoBehaviour
    
    private void UpdateAnimValues()
    {
-       if (_playerInput.movement.y == 0)
-       {
-           _playerAnim.SetFloat("HorizontalX", _playerInput.movement.x);
-           _playerAnim.SetFloat("VerticalY", 0);
-       }
-
-       if (_playerInput.movement.x == 0)
-       {
-           _playerAnim.SetFloat("VerticalY", _playerInput.movement.y);
-           _playerAnim.SetFloat("HorizontalX", 0);
-       }
+       _playerAnim.SetFloat("HorizontalX", _playerInput.movement.x);
+       _playerAnim.SetFloat("VerticalY", _playerInput.movement.y);
    }
 }
