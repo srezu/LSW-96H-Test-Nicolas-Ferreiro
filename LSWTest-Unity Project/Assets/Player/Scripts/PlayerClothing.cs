@@ -19,20 +19,7 @@ public class PlayerClothing : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            foreach (var clothing in playerClothing)
-            {
-                clothing.clothingItem.ToggleClothing(true);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            foreach (var clothing in playerClothing)
-            {
-                clothing.clothingItem.ToggleClothing(false);
-            }
-        }
+
     }
 }
 
