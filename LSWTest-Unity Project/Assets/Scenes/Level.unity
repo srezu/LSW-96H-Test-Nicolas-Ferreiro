@@ -1758,12 +1758,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: -11.2196
       objectReference: {fileID: 0}
-    - target: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
-        type: 3}
-      propertyPath: clothingData
-      value: 
-      objectReference: {fileID: 11400000, guid: 6edf415447c5e79498691749c1a01c26,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de547e2ba6153794c93acf77550deef3, type: 3}
 --- !u!224 &964086535 stripped
@@ -3141,12 +3135,6 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7256383138820617182, guid: de547e2ba6153794c93acf77550deef3,
-        type: 3}
-      propertyPath: clothingData
-      value: 
-      objectReference: {fileID: 11400000, guid: 895d09b5b02bbff409b89fdb519f9620,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de547e2ba6153794c93acf77550deef3, type: 3}
 --- !u!1001 &6559443595259731307
