@@ -17,8 +17,7 @@ public class PlayerClothing : MonoBehaviour
     {
         foreach (var clothing in playerClothing)
         {
-               clothing.clothingItem.ToggleClothing(true);
-               clothing.clothingItem.UpdateClothingData(clothing.clothingSlot.clothingData);
+            clothing.clothingItem.UpdateClothingData(ref clothing.clothingSlot.clothingData);
         }
     }
 }

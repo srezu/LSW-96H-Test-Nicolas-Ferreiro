@@ -15,14 +15,28 @@ public class ClothingItem : MonoBehaviour
     public string clothingName;
     [TextArea]public string clothingDescription;
     
-    public void UpdateClothingData(ClothingData clothingData)
+    public void UpdateClothingData(ref ClothingData clothingData)
     {
         foreach (var playerClothing in clothingRenderer)
         {
+            if (clothingData == null)
+            {
+                playerClothing.clothingSpriteFront.sprite = null;
+                playerClothing.clothingSpriteBack.sprite = null;
+                playerClothing.clothingSpriteLeft.sprite = null;
+
+
+                clothingPrice = 0;
+                clothingName = "";
+                clothingDescription = "";
+                continue;
+            }
+
             if (clothingData.clothingType != this.clothingType)
             {
-                Debug.LogWarning("clothing type doesn't match"); 
-                return;
+                Debug.LogWarning("clothing type doesn't match");
+                clothingData = null;
+                continue;
             }
             
             playerClothing.clothingSpriteFront.sprite = clothingData.clothingSprite.clothingSpriteFront;

@@ -6,14 +6,21 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
+   [Header(("Slot"))]
    public Image iconRenderer;
+   public Button slotButton;
+   [Header(("Clothing data"))]
    public ClothingData clothingData;
 
-
+  
 
    private void Update()
    {
       UpdateInventorySlot();
+
+      
+
+      slotButton.interactable = clothingData != null;
    }
 
    public void UpdateInventorySlot()
