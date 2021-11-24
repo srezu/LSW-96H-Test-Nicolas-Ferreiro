@@ -156,13 +156,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1735033164484407576}
   - component: {fileID: 8815269541742987479}
+  - component: {fileID: 1967466617828569316}
   m_Layer: 0
-  m_Name: CLOTHING_LLegArmor
+  m_Name: CLOTHING_RLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1735033164484407576
 Transform:
   m_ObjectHideFlags: 0
@@ -184,7 +185,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220089094484032505}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -228,6 +229,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1967466617828569316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220089094484032505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &1326669413833525717
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,13 +287,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2553821514482527355}
   - component: {fileID: 9050169439338112478}
+  - component: {fileID: 8928162674682951637}
   m_Layer: 0
   m_Name: CLOTHING_LLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2553821514482527355
 Transform:
   m_ObjectHideFlags: 0
@@ -297,7 +316,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423065869998463261}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -341,6 +360,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8928162674682951637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423065869998463261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &1494162806245636759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,13 +1354,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1058209345176892655}
   - component: {fileID: 6036872889843791031}
+  - component: {fileID: 8363552288189871582}
   m_Layer: 0
   m_Name: CLOTHING_Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1058209345176892655
 Transform:
   m_ObjectHideFlags: 0
@@ -1346,7 +1383,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3092913087167659093}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1390,6 +1427,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8363552288189871582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092913087167659093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &3157954067951836189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,13 +1631,14 @@ GameObject:
   m_Component:
   - component: {fileID: 7320810864373078209}
   - component: {fileID: 7838735835751412131}
+  - component: {fileID: 3518616060472656745}
   m_Layer: 0
   m_Name: CLOTHING_RLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7320810864373078209
 Transform:
   m_ObjectHideFlags: 0
@@ -1605,7 +1660,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3604491751209439181}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1638,9 +1693,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 930
-  m_Sprite: {fileID: 21300022, guid: 76ca77e0c084c82499f6224377bce39c, type: 3}
+  m_Sprite: {fileID: 21300024, guid: 76ca77e0c084c82499f6224377bce39c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.8, y: 1.6}
@@ -1649,6 +1704,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3518616060472656745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604491751209439181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer:
+  - clothingSpriteFront: {fileID: 7838735835751412131}
+    clothingSpriteBack: {fileID: 7022026102941650565}
+    clothingSpriteLeft: {fileID: 8815269541742987479}
+  clothingType: 3
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &3744922517343392179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,13 +1847,14 @@ GameObject:
   m_Component:
   - component: {fileID: 7950992285770914365}
   - component: {fileID: 7424165689594639199}
+  - component: {fileID: 806452138375855466}
   m_Layer: 0
   m_Name: CLOTHING_Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7950992285770914365
 Transform:
   m_ObjectHideFlags: 0
@@ -1800,7 +1876,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4164314306857536817}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1844,6 +1920,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &806452138375855466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164314306857536817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer:
+  - clothingSpriteFront: {fileID: 7424165689594639199}
+    clothingSpriteBack: {fileID: 1803319879045197509}
+    clothingSpriteLeft: {fileID: 5297106271871510836}
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &4472144002915922117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,13 +2011,14 @@ GameObject:
   m_Component:
   - component: {fileID: 4003092293620186462}
   - component: {fileID: 5297106271871510836}
+  - component: {fileID: 4893916441046300389}
   m_Layer: 0
   m_Name: CLOTHING_Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4003092293620186462
 Transform:
   m_ObjectHideFlags: 0
@@ -1943,7 +2040,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5059453965899918986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1987,6 +2084,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4893916441046300389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5059453965899918986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &5267512741849355161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,13 +2225,14 @@ GameObject:
   m_Component:
   - component: {fileID: 5571373879056117345}
   - component: {fileID: 5278120413029188760}
+  - component: {fileID: 6609552082154906866}
   m_Layer: 0
   m_Name: CLOTHING_Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5571373879056117345
 Transform:
   m_ObjectHideFlags: 0
@@ -2139,7 +2254,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5843192261293387185}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2183,6 +2298,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6609552082154906866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843192261293387185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &5872483889672609853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,13 +2656,14 @@ GameObject:
   m_Component:
   - component: {fileID: 6957216093888081765}
   - component: {fileID: 2588776740702520772}
+  - component: {fileID: 7706787674138121686}
   m_Layer: 0
-  m_Name: CLOTHING_RLegArmor
+  m_Name: CLOTHING_LLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6957216093888081765
 Transform:
   m_ObjectHideFlags: 0
@@ -2552,7 +2685,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6478233594993165481}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2596,6 +2729,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7706787674138121686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478233594993165481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &6669253567940403914
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,7 +3388,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -3282,6 +3432,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1ab5a801e3c31439a0aaa18a35feb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerClothing:
+  - clothingItem: {fileID: 806452138375855466}
+    clothingData: {fileID: 11400000, guid: 6edf415447c5e79498691749c1a01c26, type: 2}
+  - clothingItem: {fileID: 8648189837839329230}
+    clothingData: {fileID: 11400000, guid: 895d09b5b02bbff409b89fdb519f9620, type: 2}
+  - clothingItem: {fileID: 7026568602616252381}
+    clothingData: {fileID: 11400000, guid: bcb8005d3d5e10f4a92a81b234fed988, type: 2}
+  - clothingItem: {fileID: 3518616060472656745}
+    clothingData: {fileID: 11400000, guid: 64fdbca282610a34f932b7d0806a4f5e, type: 2}
 --- !u!1 &7442408754752244190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,13 +3648,14 @@ GameObject:
   m_Component:
   - component: {fileID: 7447796574053379154}
   - component: {fileID: 7330422616410661202}
+  - component: {fileID: 8648189837839329230}
   m_Layer: 0
   m_Name: CLOTHING_Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7447796574053379154
 Transform:
   m_ObjectHideFlags: 0
@@ -3517,7 +3677,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7443697150224100744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3561,6 +3721,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8648189837839329230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443697150224100744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer:
+  - clothingSpriteFront: {fileID: 7330422616410661202}
+    clothingSpriteBack: {fileID: 6036872889843791031}
+    clothingSpriteLeft: {fileID: 5278120413029188760}
+  clothingType: 1
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &7443735628498997460
 GameObject:
   m_ObjectHideFlags: 0
@@ -4226,13 +4406,14 @@ GameObject:
   m_Component:
   - component: {fileID: 4786761891010458362}
   - component: {fileID: 7022026102941650565}
+  - component: {fileID: 5727502551124474253}
   m_Layer: 0
   m_Name: CLOTHING_RLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4786761891010458362
 Transform:
   m_ObjectHideFlags: 0
@@ -4254,7 +4435,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7786534699545045598}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4298,6 +4479,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5727502551124474253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786534699545045598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &7826055664686306194
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,13 +4588,14 @@ GameObject:
   m_Component:
   - component: {fileID: 6539071679694253564}
   - component: {fileID: 1803319879045197509}
+  - component: {fileID: 6565018587726442766}
   m_Layer: 0
   m_Name: CLOTHING_Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6539071679694253564
 Transform:
   m_ObjectHideFlags: 0
@@ -4418,7 +4617,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8251258364070652186}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4462,6 +4661,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6565018587726442766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251258364070652186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer: []
+  clothingType: 0
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &8254009824608465844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,13 +4853,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2666804761917370789}
   - component: {fileID: 1969712621316634538}
+  - component: {fileID: 7026568602616252381}
   m_Layer: 0
   m_Name: CLOTHING_LLegArmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2666804761917370789
 Transform:
   m_ObjectHideFlags: 0
@@ -4665,7 +4882,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8540766861307390876}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4709,6 +4926,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7026568602616252381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8540766861307390876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416baa37294cd2f47b306299316602ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clothingRenderer:
+  - clothingSpriteFront: {fileID: 1969712621316634538}
+    clothingSpriteBack: {fileID: 9050169439338112478}
+    clothingSpriteLeft: {fileID: 2588776740702520772}
+  clothingType: 2
+  clothingPrice: 0
+  clothingName: 
+  clothingDescription: 
 --- !u!1 &8620827356274675497
 GameObject:
   m_ObjectHideFlags: 0
