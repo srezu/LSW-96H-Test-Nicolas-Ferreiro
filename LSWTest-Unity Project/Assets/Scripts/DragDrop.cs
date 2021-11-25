@@ -36,7 +36,6 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
        // Debug.Log("OnBeginDrag");       
         _onDrag = true;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
-
         
     }
 
@@ -52,6 +51,9 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     {
         //Debug.Log("OnDrag");
         _rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        eventData.pointerDrag.transform.SetAsFirstSibling();
+        eventData.pointerDrag.transform.SetSiblingIndex(1000);
+
     }
 
    

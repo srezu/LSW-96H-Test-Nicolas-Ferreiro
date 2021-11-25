@@ -3628,6 +3628,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 43197323}
     m_Modifications:
+    - target: {fileID: 2728571512581257429, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000049591064
+      objectReference: {fileID: 0}
     - target: {fileID: 2728571512892241511, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Sprite
@@ -5916,6 +5921,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2728571512581257429, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000049591064
+      objectReference: {fileID: 0}
     - target: {fileID: 2728571512892241508, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -6997,6 +7007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 43197323}
     m_Modifications:
+    - target: {fileID: 2728571512581257429, guid: de547e2ba6153794c93acf77550deef3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000049591064
+      objectReference: {fileID: 0}
     - target: {fileID: 2728571512892241511, guid: de547e2ba6153794c93acf77550deef3,
         type: 3}
       propertyPath: m_Enabled
