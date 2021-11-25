@@ -14,6 +14,8 @@ public class InventorySlot : MonoBehaviour,IDropHandler
    public Image iconRenderer;
    public Button slotButton;
    public InventorySlotOwner owner;
+
+   public PlayerInventory playerInventory;
    
    [Header(("SlotType"))]
    public ClothType slotType;//for exclusive types of slots
@@ -61,10 +63,11 @@ public class InventorySlot : MonoBehaviour,IDropHandler
 
          if (oldInventorySlot.owner == InventorySlotOwner.Merchant && owner == InventorySlotOwner.Player)
          {//buy item
-           
+            if (oldInventorySlot.clothingData.clothingPrice > playerInventory.coins) return;
+            
             EventManager.Call(Constantes.UpdatePlayerCoins, new UpdatePlayerCoinsDP() { coins = -oldInventorySlot.clothingData.clothingPrice});
          }
-         else
+         else if(owner == InventorySlotOwner.Merchant)
          {//sell item
             EventManager.Call(Constantes.UpdatePlayerCoins, new UpdatePlayerCoinsDP() { coins = oldInventorySlot.clothingData.clothingPrice});
          }

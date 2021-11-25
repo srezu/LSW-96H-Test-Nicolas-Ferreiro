@@ -11,9 +11,15 @@ public class PlayerInventory : MonoBehaviour
     public int coins;
     public TextMeshProUGUI coinsText;
 
+    public InventorySlot[] playerInventorySlots;
+
     private void Start()
     {
         UpdateCoins(0);
+        foreach (var inventorySlot in playerInventorySlots)
+        {
+            inventorySlot.playerInventory = this;
+        }
     }
 
     private void OnEnable()
