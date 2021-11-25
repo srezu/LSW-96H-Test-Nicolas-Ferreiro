@@ -29,12 +29,14 @@ MonoBehaviour:
   prefabsData:
     enabled: 1
     prefabs:
-    - gameObject: {fileID: 4568249183204167093, guid: 185494576af8a64458e176409236fce2, type: 3}
+    - gameObject: {fileID: 4568249183204167093, guid: 185494576af8a64458e176409236fce2,
+        type: 3}
       color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.15686275}
-    - gameObject: {fileID: 2711216198116367235, guid: ea5291617d7042c48a75064bda750b76, type: 3}
+    - gameObject: {fileID: 2711216198116367235, guid: ea5291617d7042c48a75064bda750b76,
+        type: 3}
       color: {r: 0.64114827, g: 1, b: 0.34449756, a: 0.14901961}
   alternatingBackground:
-    enabled: 1
+    enabled: 0
     color: {r: 1, g: 1, b: 1, a: 0.007843138}
   separator:
     enabled: 1
@@ -43,12 +45,12 @@ MonoBehaviour:
   tree:
     enabled: 1
     drawOverlayOnColoredPrefabs: 1
-    dividerHeigth: 1.46
+    dividerHeigth: 0.46
     baseLevelColor: {r: 1, g: 1, b: 1, a: 1}
     branches:
-    - overlayColor: {r: 1, g: 0.44, b: 0.97, a: 0.04}
+    - overlayColor: {r: 1, g: 1, b: 1, a: 0}
       colors:
-      - {r: 1, g: 0.44, b: 0.97, a: 1}
-    - overlayColor: {r: 0.93, g: 1, b: 0.42, a: 0.04}
+      - {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    - overlayColor: {r: 1, g: 1, b: 1, a: 0}
       colors:
-      - {r: 0.93, g: 1, b: 0.42, a: 1}
+      - {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}

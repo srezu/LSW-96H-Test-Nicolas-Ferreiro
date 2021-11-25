@@ -3317,6 +3317,7 @@ GameObject:
   - component: {fileID: 7442384972279430995}
   - component: {fileID: 7442384972279431004}
   - component: {fileID: 7442384972279431005}
+  - component: {fileID: 3068716503112438279}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3441,6 +3442,22 @@ MonoBehaviour:
     clothingSlot: {fileID: 0}
   - clothingItem: {fileID: 3518616060472656745}
     clothingSlot: {fileID: 0}
+--- !u!70 &3068716503112438279
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7442384972279431006}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.33702987}
+  m_Size: {x: 0.66711915, y: 0.66711915}
+  m_Direction: 0
 --- !u!1 &7442408754752244190
 GameObject:
   m_ObjectHideFlags: 0

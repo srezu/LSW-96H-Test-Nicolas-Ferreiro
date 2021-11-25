@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 913eecd0e53e61c4d9bd884d4f6b5a4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5695144912973170895
+    second: UIpackSheet_transparent_0
+  - first:
+      213: -3127679396938362128
+    second: UIpackSheet_transparent_1
+  - first:
+      213: -8033172246755046080
+    second: UIpackSheet_transparent_2
+  - first:
+      213: -1140347983444311131
+    second: UIpackSheet_transparent_3
+  - first:
+      213: -3431950300424781344
+    second: UIpackSheet_transparent_4
+  - first:
+      213: -3026917275305073688
+    second: UIpackSheet_transparent_5
+  - first:
+      213: 4991016636379149300
+    second: UIpackSheet_transparent_6
+  - first:
+      213: -3079282483227113654
+    second: UIpackSheet_transparent_7
+  - first:
+      213: 8707904201888763932
+    second: UIpackSheet_transparent_8
+  - first:
+      213: -5181720975292301726
+    second: UIpackSheet_transparent_9
+  - first:
+      213: -948564208097650241
+    second: UIpackSheet_transparent_10
+  - first:
+      213: 5538853875076340150
+    second: UIpackSheet_transparent_11
+  - first:
+      213: 2555777098465519679
+    second: UIpackSheet_transparent_12
+  - first:
+      213: -1155023404849721017
+    second: UIpackSheet_transparent_13
+  - first:
+      213: -2453915123196792775
+    second: UIpackSheet_transparent_14
+  - first:
+      213: 5513189678297385128
+    second: UIpackSheet_transparent_15
+  - first:
+      213: 559161692552781136
+    second: UIpackSheet_transparent_16
+  - first:
+      213: 850887811315095115
+    second: UIpackSheet_transparent_17
+  - first:
+      213: -3086520251264387752
+    second: UIpackSheet_transparent_18
+  - first:
+      213: -6369112878133937650
+    second: UIpackSheet_transparent_19
+  - first:
+      213: -3728018663443055986
+    second: UIpackSheet_transparent_20
+  - first:
+      213: -8354121261622886410
+    second: UIpackSheet_transparent_21
+  - first:
+      213: 1782914186671431578
+    second: UIpackSheet_transparent_22
+  - first:
+      213: -3945772552567853968
+    second: UIpackSheet_transparent_23
+  - first:
+      213: -6812710864249716836
+    second: UIpackSheet_transparent_24
+  - first:
+      213: -371166962722855244
+    second: UIpackSheet_transparent_25
+  - first:
+      213: -7076132655741482044
+    second: UIpackSheet_transparent_26
+  - first:
+      213: 4987152508054625293
+    second: UIpackSheet_transparent_27
+  - first:
+      213: 2732018801025790758
+    second: UIpackSheet_transparent_28
+  - first:
+      213: -8105189022360134545
+    second: UIpackSheet_transparent_29
+  - first:
+      213: -5366173318175781531
+    second: UIpackSheet_transparent_30
+  - first:
+      213: -861400804235059773
+    second: UIpackSheet_transparent_31
+  - first:
+      213: -1166613288482058161
+    second: UIpackSheet_transparent_32
+  - first:
+      213: -2700707045557211724
+    second: UIpackSheet_transparent_33
+  - first:
+      213: -5445637501654401377
+    second: UIpackSheet_transparent_34
+  - first:
+      213: -6489827359101392154
+    second: UIpackSheet_transparent_35
+  - first:
+      213: -4196683411623957927
+    second: UIpackSheet_transparent_36
+  - first:
+      213: -7558239220451890073
+    second: UIpackSheet_transparent_37
+  - first:
+      213: -6637819477330347369
+    second: UIpackSheet_transparent_38
+  - first:
+      213: 89033199856477682
+    second: UIpackSheet_transparent_39
+  - first:
+      213: 2974946484979093660
+    second: UIpackSheet_transparent_40
+  - first:
+      213: 8444258112010701884
+    second: UIpackSheet_transparent_41
+  - first:
+      213: -3215705392067805685
+    second: UIpackSheet_transparent_42
+  - first:
+      213: -3880072747029046687
+    second: UIpackSheet_transparent_43
+  - first:
+      213: 9073696610590437921
+    second: UIpackSheet_transparent_44
+  - first:
+      213: 5443980683074053369
+    second: UIpackSheet_transparent_45
+  - first:
+      213: 6542676534954427506
+    second: UIpackSheet_transparent_46
+  - first:
+      213: 3590743114424991643
+    second: UIpackSheet_transparent_47
+  - first:
+      213: 1712362045385250966
+    second: UIpackSheet_transparent_48
+  - first:
+      213: 6881067769181477427
+    second: UIpackSheet_transparent_49
+  - first:
+      213: 4917386648378110115
+    second: UIpackSheet_transparent_50
+  - first:
+      213: 560447518692054772
+    second: UIpackSheet_transparent_51
+  - first:
+      213: 8815189020767119099
+    second: UIpackSheet_transparent_52
+  - first:
+      213: -7102981950906404592
+    second: UIpackSheet_transparent_53
+  - first:
+      213: -8428674756329176145
+    second: UIpackSheet_transparent_54
+  - first:
+      213: 1435925218936704464
+    second: UIpackSheet_transparent_55
+  - first:
+      213: 722771708924395674
+    second: UIpackSheet_transparent_56
+  - first:
+      213: -598771123405986732
+    second: UIpackSheet_transparent_57
+  - first:
+      213: -6847211069654981694
+    second: UIpackSheet_transparent_58
+  - first:
+      213: -2483968820502777272
+    second: UIpackSheet_transparent_59
+  - first:
+      213: -5922182910892648317
+    second: UIpackSheet_transparent_60
+  - first:
+      213: -3352804553344505782
+    second: UIpackSheet_transparent_61
+  - first:
+      213: 3926532563506789169
+    second: UIpackSheet_transparent_62
+  - first:
+      213: 8030610673942907580
+    second: UIpackSheet_transparent_63
+  - first:
+      213: -8493839795710178914
+    second: UIpackSheet_transparent_64
+  - first:
+      213: -6146606508381723490
+    second: UIpackSheet_transparent_65
+  - first:
+      213: -938535675619861428
+    second: UIpackSheet_transparent_66
+  - first:
+      213: 6610507232909243445
+    second: UIpackSheet_transparent_67
+  - first:
+      213: 1380249007026004608
+    second: UIpackSheet_transparent_68
+  - first:
+      213: -7694842669502511312
+    second: UIpackSheet_transparent_69
+  - first:
+      213: -5902389909616393481
+    second: UIpackSheet_transparent_70
+  - first:
+      213: -6840236982259697806
+    second: UIpackSheet_transparent_71
+  - first:
+      213: -5440689403741893238
+    second: UIpackSheet_transparent_72
+  - first:
+      213: 8731112560554822500
+    second: UIpackSheet_transparent_73
+  - first:
+      213: -2834719605204748428
+    second: UIpackSheet_transparent_74
+  - first:
+      213: 6251168546066950111
+    second: UIpackSheet_transparent_75
+  - first:
+      213: -3274992977076774755
+    second: UIpackSheet_transparent_76
+  - first:
+      213: 4064770643668460491
+    second: UIpackSheet_transparent_77
+  - first:
+      213: 3261366021957509318
+    second: UIpackSheet_transparent_78
+  - first:
+      213: 6138940226298099736
+    second: UIpackSheet_transparent_79
+  - first:
+      213: -7304823717085588072
+    second: UIpackSheet_transparent_80
+  - first:
+      213: 8458221470976680592
+    second: UIpackSheet_transparent_81
+  - first:
+      213: 2582254940224016083
+    second: UIpackSheet_transparent_82
+  - first:
+      213: 2692917086020614025
+    second: UIpackSheet_transparent_83
+  - first:
+      213: -7467171887109943674
+    second: UIpackSheet_transparent_84
+  - first:
+      213: -1639125219913435980
+    second: UIpackSheet_transparent_85
+  - first:
+      213: -1004335519413780451
+    second: UIpackSheet_transparent_86
+  - first:
+      213: 6502153535768748527
+    second: UIpackSheet_transparent_87
+  - first:
+      213: 8186460034269372657
+    second: UIpackSheet_transparent_88
+  - first:
+      213: -3385889097098301234
+    second: UIpackSheet_transparent_89
+  - first:
+      213: 6575836080974818192
+    second: UIpackSheet_transparent_90
+  - first:
+      213: -8821022822702792347
+    second: UIpackSheet_transparent_91
+  - first:
+      213: 5319961399149531822
+    second: UIpackSheet_transparent_92
+  - first:
+      213: 3373282330856905850
+    second: UIpackSheet_transparent_93
+  - first:
+      213: -8622833436926085889
+    second: UIpackSheet_transparent_94
+  - first:
+      213: 7415922236392124617
+    second: UIpackSheet_transparent_95
+  - first:
+      213: 4942434219457340991
+    second: UIpackSheet_transparent_96
+  - first:
+      213: 8495001603683742165
+    second: UIpackSheet_transparent_97
+  - first:
+      213: -5308781270599693663
+    second: UIpackSheet_transparent_98
+  - first:
+      213: -5313850469377241514
+    second: UIpackSheet_transparent_99
+  - first:
+      213: 876878303544013925
+    second: UIpackSheet_transparent_100
+  - first:
+      213: 4474132012592834620
+    second: UIpackSheet_transparent_101
+  - first:
+      213: 2519876675128073265
+    second: UIpackSheet_transparent_102
+  - first:
+      213: -1371084913492167856
+    second: UIpackSheet_transparent_103
+  - first:
+      213: -5359415030084199904
+    second: UIpackSheet_transparent_104
+  - first:
+      213: 7059284874108879885
+    second: UIpackSheet_transparent_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8832acf18390f40800000000000000
+      internalID: 5695144912973170895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f25e2ed8204894d0800000000000000
+      internalID: -3127679396938362128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d83a43760748090800000000000000
+      internalID: -8033172246755046080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a308760d8bac20f0800000000000000
+      internalID: -1140347983444311131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1c26092634f50d0800000000000000
+      internalID: -3431950300424781344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3a2f086ca3ef5d0800000000000000
+      internalID: -3026917275305073688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 213
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3b17fef27a34540800000000000000
+      internalID: 4991016636379149300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 213
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474a2075e03445d0800000000000000
+      internalID: -3079282483227113654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 213
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1016b33cb0b8d870800000000000000
+      internalID: 8707904201888763932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ef2861a34d618b0800000000000000
+      internalID: -5181720975292301726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb990b1e0e506d2f0800000000000000
+      internalID: -948564208097650241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b998b6d046fddc40800000000000000
+      internalID: 5538853875076340150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ad1fdab1f77320800000000000000
+      internalID: 2555777098465519679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7419ba6355888ffe0800000000000000
+      internalID: -1155023404849721017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93075e46231f1fdd0800000000000000
+      internalID: -2453915123196792775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 195
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a804426dc8c28c40800000000000000
+      internalID: 5513189678297385128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 195
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5d98c89a82c700800000000000000
+      internalID: 559161692552781136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 195
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b465529c4f5fecb00800000000000000
+      internalID: 850887811315095115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855365f3f2a7a25d0800000000000000
+      internalID: -3086520251264387752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af574159d5c97a0800000000000000
+      internalID: -6369112878133937650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a337907ca634cc0800000000000000
+      internalID: -3728018663443055986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fffd6e79f2301c80800000000000000
+      internalID: -8354121261622886410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f1e89a10f2eb810800000000000000
+      internalID: 1782914186671431578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce4bfd4cccd39c0800000000000000
+      internalID: -3945772552567853968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f73f270936471a0800000000000000
+      internalID: -6812710864249716836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 179
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b62b8a2d9959daf0800000000000000
+      internalID: -371166962722855244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 179
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbccfe27d68ccd90800000000000000
+      internalID: -7076132655741482044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 178
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c5b4378cce53540800000000000000
+      internalID: 4987152508054625293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 178
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623b4daef941ae520800000000000000
+      internalID: 2732018801025790758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c14dcf685948f80800000000000000
+      internalID: -8105189022360134545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d04fe5cc58785b0800000000000000
+      internalID: -5366173318175781531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd555e4880bb04f0800000000000000
+      internalID: -861400804235059773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40d6c5256b5fcfe0800000000000000
+      internalID: -1166613288482058161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 163
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdea234049258ad0800000000000000
+      internalID: -2700707045557211724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ef7526b853d64b0800000000000000
+      internalID: -5445637501654401377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 161
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6627c6608fe5a0800000000000000
+      internalID: -6489827359101392154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 161
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a216f0ca262c5c0800000000000000
+      internalID: -4196683411623957927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 139
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c2a89697dbb1790800000000000000
+      internalID: -7558239220451890073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 139
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a3e82aa5ab1e3a0800000000000000
+      internalID: -6637819477330347369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 139
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f569aa393f4c3100800000000000000
+      internalID: 89033199856477682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90d9fee012294920800000000000000
+      internalID: 2974946484979093660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 139
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ccb166308003570800000000000000
+      internalID: 8444258112010701884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 140
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e7d73cbf48f53d0800000000000000
+      internalID: -3215705392067805685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 145
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ad8a2e466372ac0800000000000000
+      internalID: -3880072747029046687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 145
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122b8e92efe3ced70800000000000000
+      internalID: 9073696610590437921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 136
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4a7ba7697ec8b40800000000000000
+      internalID: 5443980683074053369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 133
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2740e3ad4a14cca50800000000000000
+      internalID: 6542676534954427506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f3bf686d1e4d130800000000000000
+      internalID: 3590743114424991643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6989c02353883c710800000000000000
+      internalID: 1712362045385250966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a9379bda67e7f50800000000000000
+      internalID: 6881067769181477427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 116
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a073df6a111e3440800000000000000
+      internalID: 4917386648378110115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f693e28c0c17c700800000000000000
+      internalID: 560447518692054772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 124
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf66fb2a5b7d55a70800000000000000
+      internalID: 8815189020767119099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 104
+        width: 4
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01176328c832d6d90800000000000000
+      internalID: -7102981950906404592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa382b557f4570b80800000000000000
+      internalID: -8428674756329176145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 127
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd4fb6f06e6de310800000000000000
+      internalID: 1435925218936704464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9004243a0dc70a00800000000000000
+      internalID: 722771708924395674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ef9fe5dcb0b7f0800000000000000
+      internalID: -598771123405986732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3a71b6fc1d9f0a0800000000000000
+      internalID: -6847211069654981694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84239c4b48b278dd0800000000000000
+      internalID: -2483968820502777272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388da55050e20dda0800000000000000
+      internalID: -5922182910892648317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48a69cc5027871d0800000000000000
+      internalID: -3352804553344505782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b73d61098dd7630800000000000000
+      internalID: 3926532563506789169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac3d52cd5727f60800000000000000
+      internalID: 8030610673942907580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_64
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994e9545b1df1a80800000000000000
+      internalID: -8493839795710178914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_65
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94adcd52fdd2baa0800000000000000
+      internalID: -6146606508381723490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c95ad86c6a9f2f0800000000000000
+      internalID: -938535675619861428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_67
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 85
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b4baed4d3dbb50800000000000000
+      internalID: 6610507232909243445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_68
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 85
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ee55b821a72310800000000000000
+      internalID: 1380249007026004608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c8c17c5d663590800000000000000
+      internalID: -7694842669502511312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_70
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2077f36af761ea0800000000000000
+      internalID: -5902389909616393481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_71
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277bbeca4b89211a0800000000000000
+      internalID: -6840236982259697806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d8bb430d9ce74b0800000000000000
+      internalID: -5440689403741893238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_73
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b42d94d942b2970800000000000000
+      internalID: 8731112560554822500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4777fedb98d09a8d0800000000000000
+      internalID: -2834719605204748428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_75
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd76a6b2cac90c650800000000000000
+      internalID: 6251168546066950111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_76
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98907f2d33ec82d0800000000000000
+      internalID: -3274992977076774755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_77
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc36b454d57f86830800000000000000
+      internalID: 4064770643668460491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_78
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c06e451e13b24d20800000000000000
+      internalID: 3261366021957509318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818badd3c95e13550800000000000000
+      internalID: 6138940226298099736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_80
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 72
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895d34c288d00aa90800000000000000
+      internalID: -7304823717085588072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 72
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092a5214d93a16570800000000000000
+      internalID: 8458221470976680592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3decc8fcf2306d320800000000000000
+      internalID: 2582254940224016083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_83
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987b6d172d92f5520800000000000000
+      internalID: 2692917086020614025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_84
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e47004bb64f5890800000000000000
+      internalID: -7467171887109943674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4fca40c48a049e0800000000000000
+      internalID: -1639125219913435980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c8029a22ef02f0800000000000000
+      internalID: -1004335519413780451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_87
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1eb8ed03a4c3a50800000000000000
+      internalID: 6502153535768748527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_88
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0ee8607062c9170800000000000000
+      internalID: 8186460034269372657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0769e2ec7e201d0800000000000000
+      internalID: -3385889097098301234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_90
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b63bb4310124b50800000000000000
+      internalID: 6575836080974818192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_91
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561cf218a7e659580800000000000000
+      internalID: -8821022822702792347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21917c4bc44d940800000000000000
+      internalID: 5319961399149531822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_93
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 54
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd3d1586e40de20800000000000000
+      internalID: 3373282330856905850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_94
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f8a2ccaa855880800000000000000
+      internalID: -8622833436926085889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_95
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0b2169bf5aae660800000000000000
+      internalID: 7415922236392124617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_96
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f366d788cbd079440800000000000000
+      internalID: 4942434219457340991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d171f933fe44e570800000000000000
+      internalID: 8495001603683742165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_98
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 35
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa88afbf8b6356b0800000000000000
+      internalID: -5308781270599693663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_99
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 35
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e0a3fe6296146b0800000000000000
+      internalID: -5313850469377241514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_100
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 15
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564fcf1db2c4b2c00800000000000000
+      internalID: 876878303544013925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_101
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 15
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38acc84c5f471e30800000000000000
+      internalID: 4474132012592834620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_102
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 15
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1dc23c7668f220800000000000000
+      internalID: 2519876675128073265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_103
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 15
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053f666198de8fce0800000000000000
+      internalID: -1371084913492167856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_104
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 15
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a11ffec688f95b0800000000000000
+      internalID: -5359415030084199904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIpackSheet_transparent_105
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 15
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d044c89f03e97f160800000000000000
+      internalID: 7059284874108879885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

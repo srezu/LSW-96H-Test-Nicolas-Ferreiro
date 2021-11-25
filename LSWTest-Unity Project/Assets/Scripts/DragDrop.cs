@@ -28,12 +28,12 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
         if (_onDrag) return;
         _initialRecTransform = _rectTransform.position;
 
-        Debug.Log("OnPointerDown");
+       // Debug.Log("OnPointerDown");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");       
+       // Debug.Log("OnBeginDrag");       
         _onDrag = true;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
 
@@ -42,7 +42,7 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+       // Debug.Log("OnEndDrag");
         _onDrag = false;
         _rectTransform.position = _initialRecTransform;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = true;
@@ -50,7 +50,7 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
+        //Debug.Log("OnDrag");
         _rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 

@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 4609134914631721}
   - component: {fileID: 95412965467830687}
   - component: {fileID: 210585854458822717}
+  - component: {fileID: 3766930981336074697}
   m_Layer: 0
   m_Name: Merchant
   m_TagString: Untagged
@@ -146,6 +147,22 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 200
+--- !u!70 &3766930981336074697
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063387739299351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.16663745}
+  m_Size: {x: 0.49778134, y: 0.49778134}
+  m_Direction: 0
 --- !u!1 &1075058740947095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,7 +1979,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1520
-  m_Sprite: {fileID: 6591478365344907407, guid: 2ad7c91ea697fea4ba69310a62559e90, type: 3}
+  m_Sprite: {fileID: 6591478365344907407, guid: 2ad7c91ea697fea4ba69310a62559e90,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

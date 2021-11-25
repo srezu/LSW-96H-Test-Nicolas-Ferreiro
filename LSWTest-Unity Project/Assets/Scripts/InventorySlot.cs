@@ -37,7 +37,7 @@ public class InventorySlot : MonoBehaviour,IDropHandler
    
    public void OnDrop(PointerEventData eventData)
    {
-      if (eventData.pointerDrag != null)
+      if (eventData.pointerDrag != null && clothingData == null)
       {
          Debug.Log("DROP in " +gameObject.name);
          var oldInventorySlot = eventData.pointerDrag.gameObject.GetComponentInParent<InventorySlot>();
@@ -51,7 +51,7 @@ public class InventorySlot : MonoBehaviour,IDropHandler
       }
       else
       {
-         Debug.Log("DROP failed! ");
+      //   Debug.Log("DROP failed! ");
       }
    }
 
