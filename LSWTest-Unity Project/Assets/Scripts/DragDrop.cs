@@ -12,6 +12,7 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
 
     public RectTransform _rectTransform;
     public Vector3 _initialRecTransform;
+    public Vector2 _initialRAnchoredPos;
 
 
   
@@ -26,17 +27,19 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     public void OnPointerDown(PointerEventData eventData)
     {
         if (_onDrag) return;
+        EventManager.Call(Constantes.TogglePlayerInput, new TogglePlayerInputDP() { toggle = true});
         _initialRecTransform = _rectTransform.position;
-
-       // Debug.Log("OnPointerDown");
+        _initialRAnchoredPos = _rectTransform.anchoredPosition;
+        // Debug.Log("OnPointerDown");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
        // Debug.Log("OnBeginDrag");       
         _onDrag = true;
+
+
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
-        EventManager.Call(Constantes.ToggleInput, new ToggleInputDP() { toggle = true});
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -44,16 +47,16 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
        // Debug.Log("OnEndDrag");
         _onDrag = false;
         _rectTransform.position = _initialRecTransform;
+        _rectTransform.anchoredPosition = _initialRAnchoredPos;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = true;
-        EventManager.Call(Constantes.ToggleInput, new ToggleInputDP() { toggle = false});
+        EventManager.Call(Constantes.TogglePlayerInput, new TogglePlayerInputDP() { toggle = false});
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         //Debug.Log("OnDrag");
         _rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        eventData.pointerDrag.transform.SetAsFirstSibling();
-        eventData.pointerDrag.transform.SetSiblingIndex(1000);
+
 
     }
 

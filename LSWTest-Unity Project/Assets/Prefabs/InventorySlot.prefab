@@ -499,7 +499,7 @@ MonoBehaviour:
   slotButton: {fileID: 7192207135139929511}
   owner: 0
   playerInventory: {fileID: 0}
-  slotType: 0
+  slotType: 3
   checkSlotType: 0
   showPrice: 0
   priceContainer: {fileID: 1580113765572766238}

@@ -5,7 +5,7 @@ using System;
 
 
 // Data packages de eventos
-public struct ToggleInputDP
+public struct TogglePlayerInputDP
 {
     public bool toggle;
 }
@@ -21,7 +21,7 @@ public struct UpdatePlayerCoinsDP
 
 public class Constantes
 {
-    public const string ToggleInput = "ToggleInput";
+    public const string TogglePlayerInput = "ToggleInput";
     public const string ToggleInventory = "ToggleInventory";
     public const string UpdatePlayerCoins = "UpdatePlayerCoins";
 }

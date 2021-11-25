@@ -18,7 +18,7 @@ public class ClothingData : ScriptableObject
 
 }
 
-public enum ClothType {CLOTHING_Armor, CLOTHING_Helmet, CLOTHING_Leg};
+public enum ClothType {CLOTHING_Armor, CLOTHING_Helmet, CLOTHING_Leg, None};
 [Serializable] public struct ClothingSprites {
     public Sprite clothingSpriteFront;
     public Sprite clothingSpriteBack;

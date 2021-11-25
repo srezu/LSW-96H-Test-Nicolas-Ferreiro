@@ -10,18 +10,18 @@ public class PlayerInput : MonoBehaviour
     public bool interact;
     private void OnEnable()
     {
-        EventManager.Subscribe(Constantes.ToggleInput, ToggleInput);
+        EventManager.Subscribe(Constantes.TogglePlayerInput, ToggleInput);
     }
 
     private void OnDestroy()
     {
-        EventManager.Unsubscribe(Constantes.ToggleInput, ToggleInput);
+        EventManager.Unsubscribe(Constantes.TogglePlayerInput, ToggleInput);
     }
     
     public void ToggleInput(params object[] x)
     {
-        if (!(x[0] is ToggleInputDP)) return;
-        ToggleInputDP dp = (ToggleInputDP)x[0];
+        if (!(x[0] is TogglePlayerInputDP)) return;
+        TogglePlayerInputDP dp = (TogglePlayerInputDP)x[0];
 
         blockInput = dp.toggle;
         ResetInput();
