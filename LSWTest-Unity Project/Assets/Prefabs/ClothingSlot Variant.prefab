@@ -124,6 +124,16 @@ PrefabInstance:
       propertyPath: iconRenderer
       value: 
       objectReference: {fileID: 4437700309287104777}
+    - target: {fileID: 2495509975533950639, guid: 932d9bbfe2dbcb3429b9f52fba4a3ad1,
+        type: 3}
+      propertyPath: checkSlotType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133813949640783004, guid: 932d9bbfe2dbcb3429b9f52fba4a3ad1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7192207135065592596, guid: 932d9bbfe2dbcb3429b9f52fba4a3ad1,
         type: 3}
       propertyPath: m_Name
@@ -314,6 +324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264465378861544436, guid: 932d9bbfe2dbcb3429b9f52fba4a3ad1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.027915955
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3864486695092089143, guid: 932d9bbfe2dbcb3429b9f52fba4a3ad1, type: 3}

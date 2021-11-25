@@ -36,7 +36,7 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
        // Debug.Log("OnBeginDrag");       
         _onDrag = true;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
-        
+        EventManager.Call(Constantes.ToggleInput, new ToggleInputDP() { toggle = true});
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -45,6 +45,7 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
         _onDrag = false;
         _rectTransform.position = _initialRecTransform;
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = true;
+        EventManager.Call(Constantes.ToggleInput, new ToggleInputDP() { toggle = false});
     }
 
     public void OnDrag(PointerEventData eventData)

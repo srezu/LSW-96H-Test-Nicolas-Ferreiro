@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
    private PlayerInput _playerInput;
    private Animator _playerAnim;
 
-   public bool playerIsMove;
 
    private void Awake()
    {

@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 95412965467830687}
   - component: {fileID: 210585854458822717}
   - component: {fileID: 3766930981336074697}
+  - component: {fileID: 376532093546951206}
   m_Layer: 0
   m_Name: Merchant
   m_TagString: Untagged
@@ -163,6 +164,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.16663745}
   m_Size: {x: 0.49778134, y: 0.49778134}
   m_Direction: 0
+--- !u!114 &376532093546951206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063387739299351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd38a2addbaf75e45a68469d3f6ae694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1075058740947095
 GameObject:
   m_ObjectHideFlags: 0
