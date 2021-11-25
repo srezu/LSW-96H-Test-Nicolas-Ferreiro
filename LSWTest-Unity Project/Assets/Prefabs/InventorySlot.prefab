@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7192207135065592599}
   - component: {fileID: 7192207135065592598}
   - component: {fileID: 1564353568400287931}
+  - component: {fileID: 3864486695092089143}
+  - component: {fileID: 3066706982252155477}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -91,6 +93,32 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &3864486695092089143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192207135065592596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ed50537cdf51249b87fc6e528f907d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  _rectTransform: {fileID: 0}
+  _initialRecTransform: {x: 0, y: 0, z: 0}
+--- !u!210 &3066706982252155477
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192207135065592596}
+  m_Enabled: 1
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 3
 --- !u!1 &7192207135139929563
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,6 +132,7 @@ GameObject:
   - component: {fileID: 7192207135139929509}
   - component: {fileID: 7192207135139929511}
   - component: {fileID: 3131291599956799226}
+  - component: {fileID: 3219330858571920939}
   m_Layer: 5
   m_Name: InventoryButton
   m_TagString: Untagged
@@ -228,6 +257,17 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!210 &3219330858571920939
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192207135139929563}
+  m_Enabled: 1
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 2
 --- !u!1 &7192207135812991874
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7192207135812991875}
   - component: {fileID: 2495509975533950639}
+  - component: {fileID: 8665680405978055275}
   m_Layer: 5
   m_Name: InventorySlot
   m_TagString: Untagged
@@ -280,3 +321,14 @@ MonoBehaviour:
   iconRenderer: {fileID: 7192207135065592598}
   slotButton: {fileID: 7192207135139929511}
   clothingData: {fileID: 0}
+--- !u!210 &8665680405978055275
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192207135812991874}
+  m_Enabled: 1
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 1
