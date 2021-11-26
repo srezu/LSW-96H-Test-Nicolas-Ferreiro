@@ -3409,8 +3409,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.33702987}
-  m_Size: {x: 0.66711915, y: 0.66711915}
+  m_Offset: {x: 0, y: 0.16448282}
+  m_Size: {x: 0.32202503, y: 0.32202503}
   m_Direction: 0
 --- !u!58 &3331534528204879973
 CircleCollider2D:
@@ -3483,6 +3483,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   coins: 0
+  coinsText: {fileID: 0}
+  playerInventorySlots: []
+  commerceWindow: {fileID: 0}
+  commerceResult: 0
 --- !u!114 &7442384972279431005
 MonoBehaviour:
   m_ObjectHideFlags: 0

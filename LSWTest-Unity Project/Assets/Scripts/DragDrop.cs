@@ -5,7 +5,7 @@ using UnityEngine;
 using  UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEndDragHandler,IDragHandler
+public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
 {
 
     public Canvas canvas;
@@ -14,39 +14,26 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
     public Vector3 _initialRecTransform;
     public Vector2 _initialRAnchoredPos;
 
-
-  
+    
     private bool _onDrag;
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
         canvas = FindObjectOfType<Canvas>();
- 
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (_onDrag) return;
-    
-        // Debug.Log("OnPointerDown");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-       // Debug.Log("OnBeginDrag"); 
-       if (_onDrag) return;
+        if (_onDrag) return;
 
        EventManager.Call(Constantes.TogglePlayerInput, new TogglePlayerInputDP() { toggle = true});
        _initialRecTransform = _rectTransform.position;
        _initialRAnchoredPos = _rectTransform.anchoredPosition;
-     
-
-        eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
+       eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-       // Debug.Log("OnEndDrag");
         _onDrag = false;
         _rectTransform.position = _initialRecTransform;
         _rectTransform.anchoredPosition = _initialRAnchoredPos;
@@ -56,11 +43,8 @@ public class DragDrop : MonoBehaviour,IPointerDownHandler,IBeginDragHandler,IEnd
 
     public void OnDrag(PointerEventData eventData)
     {
-        //Debug.Log("OnDrag");
         _rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
         _onDrag = true;
-
-
     }
 
    

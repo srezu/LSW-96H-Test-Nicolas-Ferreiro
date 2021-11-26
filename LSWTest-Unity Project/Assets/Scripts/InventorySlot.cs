@@ -78,13 +78,10 @@ public class InventorySlot : MonoBehaviour,IDropHandler
          oldInventorySlot.UpdateInventorySlot();
          UpdateInventorySlot();
       }
-   
       
- 
    }
-
    
-   public void Clear()
+   private void Clear()
    {
       clothingData = null;
    }

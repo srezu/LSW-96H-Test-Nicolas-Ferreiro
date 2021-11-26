@@ -68,12 +68,10 @@ public class PlayerInventory : MonoBehaviour
         if (toggle)
         {
             anim.Play("OpenInventory");
-         
         }
         else
         {
             anim.Play("CloseInventory");
-
         }
     }
 }
