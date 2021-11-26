@@ -8,15 +8,19 @@ using UnityEngine;
 /*This class is in charge of managing the player's inventory,*/
 public class PlayerInventory : MonoBehaviour
 {
-    public Animator anim;
 
+    [Header("Inventory")]
+    public InventorySlot[] playerInventorySlots;
+    
+    [Header("Player coins")]
     public int coins;
     public TextMeshProUGUI coinsText;
 
-    public InventorySlot[] playerInventorySlots;
 
+    [Header("Other")]
+    public Animator anim;
     public GameObject commerceWindow;
-    public bool commerceResult = false;
+    private bool _commerceResult = false;
         
     private void Start()
     {
@@ -38,33 +42,34 @@ public class PlayerInventory : MonoBehaviour
         EventManager.Unsubscribe(Constantes.ToggleInventory, CallToggleInventory);
         EventManager.Unsubscribe(Constantes.UpdatePlayerCoins, CallUpdateCoins);
     }
+    public void UpdateCommerceResult(bool playerAnswer)
+    {
+        _commerceResult = playerAnswer;
+    }
+    
 
+    //Add or subtract money from the player from another script.
     private void CallUpdateCoins(params object[] x)
     {
         if (!(x[0] is UpdatePlayerCoinsDP)) return;
-        UpdatePlayerCoinsDP dp = (UpdatePlayerCoinsDP)x[0];
+        var dp = (UpdatePlayerCoinsDP)x[0];
         
         UpdateCoins(dp.coins);
     }
-
-    public void UpdateCommerceResult(bool playerAnswer)
-    {
-        commerceResult = playerAnswer;
-    }
-    
     public void UpdateCoins(int newCoins)
     {
         coins += newCoins;
         coinsText.text = coins.ToString();
     }
 
+    
+    //It is used to activate / deactivate the player's inventory from another script.
     private void  CallToggleInventory(params object[] x)
     {
         if (!(x[0] is ToggleInventoryDP)) return;
-        ToggleInventoryDP dp = (ToggleInventoryDP)x[0];
+        var dp = (ToggleInventoryDP)x[0];
         ToggleInventory(dp.toggle);
     }
-
     public void ToggleInventory(bool toggle)
     {
         if (toggle)

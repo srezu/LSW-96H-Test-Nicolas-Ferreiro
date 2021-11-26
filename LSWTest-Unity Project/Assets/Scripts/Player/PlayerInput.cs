@@ -8,9 +8,10 @@ using UnityEngine;
  it is also safer in the event that you want to adapt it for a multiplayer game ModelViewController*/
 public class PlayerInput : MonoBehaviour
 {
+    [Header("Player input parameters")]
     public bool blockInput = false;
-    public Vector2 movement;
     public bool interact;
+    public Vector2 movement;
     private void OnEnable()
     {
         EventManager.Subscribe(Constantes.TogglePlayerInput, ToggleInput);
@@ -20,11 +21,11 @@ public class PlayerInput : MonoBehaviour
     {
         EventManager.Unsubscribe(Constantes.TogglePlayerInput, ToggleInput);
     }
-    
-    public void ToggleInput(params object[] x)
+
+    private void ToggleInput(params object[] x)
     {
         if (!(x[0] is TogglePlayerInputDP)) return;
-        TogglePlayerInputDP dp = (TogglePlayerInputDP)x[0];
+        var dp = (TogglePlayerInputDP)x[0];
 
         blockInput = dp.toggle;
         ResetInput();
@@ -41,7 +42,7 @@ public class PlayerInput : MonoBehaviour
 
     }
 
-    public void ResetInput()
+    private void ResetInput()
     {
         movement.x = 0;
         movement.y = 0;

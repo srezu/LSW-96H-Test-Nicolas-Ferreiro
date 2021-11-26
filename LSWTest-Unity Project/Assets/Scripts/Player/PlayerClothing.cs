@@ -23,8 +23,6 @@ public class PlayerClothing : MonoBehaviour
     }
 }
 
-
-
 [Serializable] public struct Clothing
 {
     public ClothingItem clothingItem;

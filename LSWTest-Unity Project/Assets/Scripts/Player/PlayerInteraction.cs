@@ -9,9 +9,9 @@ using UnityEngine.PlayerLoop;
  If there is, the player can interact with that object using its interface*/
 public class PlayerInteraction : MonoBehaviour
 {
-    public IInteractive focusObject;
     public GameObject interactKeyHUD;
     private PlayerInput _playerInput;
+    private IInteractive _focusObject;
 
     private void Awake()
     {
@@ -23,30 +23,31 @@ public class PlayerInteraction : MonoBehaviour
         if(_playerInput.interact) Interact();
     }
 
-    public void Interact()
+    private void Interact()
     {
-        if(focusObject != null) focusObject.OnInteract();
+        if(_focusObject != null) _focusObject.OnInteract();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<IInteractive>() == null) return;
         
-        focusObject = other.GetComponent<IInteractive>();
+        _focusObject = other.GetComponent<IInteractive>();
         UpdateKeyHUD();
     }
     
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.GetComponent<IInteractive>() == null) return;
-        focusObject.OnExitInteract();
-        focusObject = null;
-
+        
+        _focusObject.OnExitInteract();
+        _focusObject = null;
         UpdateKeyHUD();
     }
 
+    //Show the "E" interaction icon, the ideal would be to do it in a separate class and communicate it by events, but I had to prioritize other tasks.
     public void UpdateKeyHUD()
     {
-        interactKeyHUD.SetActive(focusObject != null);
+        interactKeyHUD.SetActive(_focusObject != null); 
     }
 }
