@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*This class is in charge of handling the player's input, having it separated makes it easier to debug and understand it,
+ it is also safer in the event that you want to adapt it for a multiplayer game ModelViewController*/
 public class PlayerInput : MonoBehaviour
 {
     public bool blockInput = false;

@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
+
+/*This class is in charge of detecting if there is an interactive object near the player.
+ If there is, the player can interact with that object using its interface*/
 public class PlayerInteraction : MonoBehaviour
 {
     public IInteractive focusObject;
@@ -18,7 +21,6 @@ public class PlayerInteraction : MonoBehaviour
     private void Update()
     {
         if(_playerInput.interact) Interact();
-        
     }
 
     public void Interact()
@@ -30,7 +32,6 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.GetComponent<IInteractive>() == null) return;
         
-  
         focusObject = other.GetComponent<IInteractive>();
         UpdateKeyHUD();
     }
@@ -47,6 +48,5 @@ public class PlayerInteraction : MonoBehaviour
     public void UpdateKeyHUD()
     {
         interactKeyHUD.SetActive(focusObject != null);
-
     }
 }

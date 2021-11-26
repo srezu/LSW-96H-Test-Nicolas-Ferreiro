@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+
+/*This class is in charge of managing the player's inventory,*/
 public class PlayerInventory : MonoBehaviour
 {
     public Animator anim;
