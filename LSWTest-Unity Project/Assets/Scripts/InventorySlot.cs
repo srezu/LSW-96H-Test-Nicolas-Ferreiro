@@ -60,7 +60,8 @@ public class InventorySlot : MonoBehaviour,IDropHandler
          if (oldInventorySlot == this) return;
          if (checkSlotType && oldInventorySlot.clothingData.clothingType != slotType) return;
 
-
+        // playerInventory.commerceWindow.SetActive(true);
+         
          if (oldInventorySlot.owner == InventorySlotOwner.Merchant && owner == InventorySlotOwner.Player)
          {//buy item
             if (oldInventorySlot.clothingData.clothingPrice > playerInventory.coins) return;
@@ -71,7 +72,7 @@ public class InventorySlot : MonoBehaviour,IDropHandler
          {//sell item
             EventManager.Call(Constantes.UpdatePlayerCoins, new UpdatePlayerCoinsDP() { coins = oldInventorySlot.clothingData.clothingPrice});
          }
-         
+      
          clothingData = oldInventorySlot.clothingData;
          oldInventorySlot.Clear();
          oldInventorySlot.UpdateInventorySlot();
@@ -82,6 +83,7 @@ public class InventorySlot : MonoBehaviour,IDropHandler
  
    }
 
+   
    public void Clear()
    {
       clothingData = null;

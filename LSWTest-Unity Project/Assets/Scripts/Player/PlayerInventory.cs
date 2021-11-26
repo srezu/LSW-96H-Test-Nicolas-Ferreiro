@@ -13,6 +13,9 @@ public class PlayerInventory : MonoBehaviour
 
     public InventorySlot[] playerInventorySlots;
 
+    public GameObject commerceWindow;
+    public bool commerceResult = false;
+        
     private void Start()
     {
         UpdateCoins(0);
@@ -40,6 +43,11 @@ public class PlayerInventory : MonoBehaviour
         UpdatePlayerCoinsDP dp = (UpdatePlayerCoinsDP)x[0];
         
         UpdateCoins(dp.coins);
+    }
+
+    public void UpdateCommerceResult(bool playerAnswer)
+    {
+        commerceResult = playerAnswer;
     }
     
     public void UpdateCoins(int newCoins)

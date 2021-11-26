@@ -105,7 +105,6 @@ GameObject:
   - component: {fileID: 3534911352750856682}
   - component: {fileID: 7278704515242745270}
   - component: {fileID: 387816709885574897}
-  - component: {fileID: 5941988130605377452}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -186,21 +185,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &5941988130605377452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795776391182425913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ed50537cdf51249b87fc6e528f907d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  _rectTransform: {fileID: 0}
-  _initialRecTransform: {x: 0, y: 0, z: 0}
 --- !u!1 &7192207135065592596
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +292,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   _rectTransform: {fileID: 0}
   _initialRecTransform: {x: 0, y: 0, z: 0}
+  _initialRAnchoredPos: {x: 0, y: 0}
 --- !u!1 &7192207135139929563
 GameObject:
   m_ObjectHideFlags: 0
