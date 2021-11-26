@@ -4,11 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
+/*This class is responsible for updating the appearance of the character based on the scriptableObject,
+ this allows the player to change clothes quickly and easily.*/
 public class ClothingItem : MonoBehaviour
 {    
     [Header("Clothing Parameters")]
-    public ClothingRenderer[] clothingRenderer;
+    public ClothingRenderer[] clothingRenderer;//contains a reference to the renderer sprite to which the clothes should be assigned, it is a struct because the player has several directions (front, back, left) in which the clothes can be displayed.
 
+    //this data is filled by the scriptableObject
     [Header("Clothing Data")]
     public ClothType clothingType;
     public int clothingPrice;
@@ -52,6 +55,7 @@ public class ClothingItem : MonoBehaviour
     }
 
 
+    
     public void ToggleClothing(bool toggle)
     {
         foreach (var playerClothing in clothingRenderer)

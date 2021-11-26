@@ -5,6 +5,8 @@ using UnityEngine;
 using  UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+
+/*This class allows an object to be dragged and dropped elsewhere, use it to move items from slot to slot*/
 public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHandler
 {
 

@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="453cde17-9428-4924-93fa-54095c139759" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSWTest-Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerClothing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerClothing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClothingSystem/ClothingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClothingSystem/ClothingData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClothingSystem/ClothingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClothingSystem/ClothingItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogSystem/DialogData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogSystem/DialogData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogSystem/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogSystem/DialogManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IInteractive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IInteractive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InventorySlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Merchant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Merchant.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,8 @@
       <workItem from="1637728838377" duration="1188000" />
       <workItem from="1637768574579" duration="24043000" />
       <workItem from="1637859596425" duration="28583000" />
-      <workItem from="1637952016852" duration="3385000" />
+      <workItem from="1637952016852" duration="4877000" />
+      <workItem from="1637964861339" duration="2064000" />
     </task>
     <servers />
   </component>

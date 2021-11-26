@@ -6,10 +6,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using  UnityEngine.EventSystems;
 
+
+/*This class works semi-generically for any inventory, be it from the player's inventory or another entity
+ (I did not get to make it completely generic due to lack of time and to keep the project simple)*/
 public class InventorySlot : MonoBehaviour,IDropHandler
 {
-   
-   
    [Header(("Slot"))]
    public Image iconRenderer;
    public Button slotButton;
@@ -51,6 +52,7 @@ public class InventorySlot : MonoBehaviour,IDropHandler
       iconRenderer.sprite = clothingData.clothingSprite.clothingSpriteFront;
    }
    
+   //this method is called when an item is dropped above the slot
    public void OnDrop(PointerEventData eventData)
    {
   
@@ -60,15 +62,16 @@ public class InventorySlot : MonoBehaviour,IDropHandler
          if (oldInventorySlot == this) return;
          if (checkSlotType && oldInventorySlot.clothingData.clothingType != slotType) return;
 
-        // playerInventory.commerceWindow.SetActive(true);
-         
+        //playerInventory.commerceWindow.SetActive(true);
+        //I would have liked to program the confirmation window to sell and buy but unfortunately I did not reach the time
+        
          if (oldInventorySlot.owner == InventorySlotOwner.Merchant && owner == InventorySlotOwner.Player)
          {//buy item
             if (oldInventorySlot.clothingData.clothingPrice > playerInventory.coins) return;
             
             EventManager.Call(Constantes.UpdatePlayerCoins, new UpdatePlayerCoinsDP() { coins = -oldInventorySlot.clothingData.clothingPrice});
          }
-         else if(owner == InventorySlotOwner.Merchant)
+         else if(owner == InventorySlotOwner.Merchant && oldInventorySlot.owner == InventorySlotOwner.Player)
          {//sell item
             EventManager.Call(Constantes.UpdatePlayerCoins, new UpdatePlayerCoinsDP() { coins = oldInventorySlot.clothingData.clothingPrice});
          }
